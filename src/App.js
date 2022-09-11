@@ -7,7 +7,7 @@ import Footer from "./footer.jsx";
 const App = () => {
   useEffect(() => {
     document.title = "AtrangiNotes";
-  });
+  }, []);
   const arr = [
     {
       title: "Title",
